@@ -16,7 +16,7 @@ spec:
   values:
     image:
       repository: ashishkasaudhan/podinfo
-      tag: stg-tnp5m7yu
+      tag: stg-vbpvt86y
     replicaCount: 2
     hpa:
       enabled: true
