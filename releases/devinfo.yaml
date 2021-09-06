@@ -2,13 +2,13 @@
 apiVersion: helm.fluxcd.io/v1
 kind: HelmRelease
 metadata:
-  name: podinfo-dev
+  name: podinfo-dev1
   namespace: dev
   annotations:
     fluxcd.io/automated: "true"
     filter.fluxcd.io/chart-image: glob:dev-*
 spec:
-  releaseName: podinfo-dev
+  releaseName: podinfo-dev1
   chart:
     git: git@github.com:Ashishkasaudhan/helm-operator-get-started
     path: charts/podinfo
